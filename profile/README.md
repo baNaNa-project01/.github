@@ -29,7 +29,7 @@
 <br>
 
 ## 🚀 **배포 링크**
-🔗 **[배나낭 웹사이트 바로가기](https://github.com/baNaNa-project01/baNaNa-frontend/)**
+🔗 **[배나낭 웹사이트 바로가기](https://banana-project01.github.io/baNaNa-frontend/)**
 
 <br>
 
