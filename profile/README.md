@@ -1,107 +1,115 @@
-# **🍌 baNaNa**
-
-> **"작은 아이디어가 세상을 바꾼다"**  
-> 사이드 프로젝트로 시작했지만, 우리가 함께 만들어가는 특별한 여정!
-
-[![GitHub Followers](https://img.shields.io/github/followers/[OrganizationName]?style=social)](https://github.com/[OrganizationName])
-[![GitHub Organization](https://img.shields.io/badge/org-open%20source-blue)](https://github.com/[OrganizationName])
+# **🍌 배나낭: 국내 여행자들을 위한 통합 커뮤니티 플랫폼**  
 
 <br>
 
-## 🌐 웹사이트 프로젝트  
-우리 조직은 사이드 프로젝트로 **[웹사이트 이름]**을 개발 중입니다.  
-**목표:**  
-- 사용자 친화적인 UI/UX 제공  
-- 최신 웹 기술을 활용하여 빠르고 효율적인 웹사이트 구축  
-- 오픈소스 커뮤니티와 협력하여 성장  
+> **"국내 여행 정보를 한곳에서! AI 기반 맞춤 추천과 커뮤니티로 더욱 편리한 여행을 즐기세요."**  
 
-### **프로젝트 주요 기능**
-- **반응형 웹**: 다양한 디바이스에서 최적화된 사용자 경험 제공  
-- **모듈형 컴포넌트**: 재사용 가능한 UI 컴포넌트로 코드 유지보수성 강화  
-- **API 연동**: 서버와의 통신을 통해 실시간 데이터 제공  
+<br/>
 
-🔗 **웹사이트 미리보기**: [https://yourproject.example.com](https://yourproject.example.com) (현재 작업 중)
+![랜딩 페이지 0](./랜딩%20페이지-0.svg)
+![랜딩 페이지 1](./랜딩%20페이지-1.svg)
+![랜딩 페이지 2](./랜딩%20페이지-2.svg)
+![랜딩 페이지 3](./랜딩%20페이지-3.svg)
+![랜딩 페이지 4](./랜딩%20페이지-4.svg)
+![랜딩 페이지 5](./랜딩%20페이지-5.svg)
+![랜딩 페이지 6](./랜딩%20페이지-6.svg)
+![랜딩 페이지 7](./랜딩%20페이지-7.svg)
+
+<br/>
+
+## 🚀 **배포 링크**
+🔗 **[배나낭 웹사이트 바로가기](https://github.com/baNaNa-project01/baNaNa-frontend/)**
+
+<br>
+
+# **0. Getting Started (시작하기)**  
+배나낭 프로젝트를 로컬에서 실행하려면 아래 단계를 따라 주세요.  
+
+```bash
+# 프로젝트 클론
+git clone https://github.com/your-repository.git
+
+# 프로젝트 폴더로 이동
+cd your-repository
+
+# 패키지 설치
+npm install
+
+# 로컬 서버 실행
+npm start
+```
+
+💡 **로컬 서버 실행 후** `http://localhost:3000` 에서 확인 가능합니다.  
+
+<br>
+
+# **1. Project Overview (프로젝트 개요)**  
+### ✨ **배나낭이란?**  
+**배나낭**은 국내 여행자들을 위한 **여행 정보 통합 플랫폼**입니다.  
+사용자는 **관광지 정보, 맛집 추천, AI 기반 맞춤 여행 일정, 커뮤니티 소통** 등을 한곳에서 이용할 수 있습니다.  
+
+### **📌 주요 기능**  
+- **AI 여행 추천** – 원하는 조건을 입력하면 AI가 맞춤형 여행 루트를 추천  
+- **관광지 정보 탐색** – 지도에서 지역별 여행지 & 맛집 정보 확인  
+- **맛집 이상형 월드컵** – 게이미피케이션 요소를 활용한 맛집 선택  
+- **커뮤니티 기능** – 여행 후기, 추천 장소 공유, 댓글 기능  
+- **소셜 로그인 지원** – 카카오, 네이버, 구글 OAuth 연동  
 
 ---
 <br>
 
-## 📂 주요 프로젝트 목록
-아래는 웹사이트와 관련된 사이드 프로젝트들입니다.
+# **2. Key Features (주요 기능)**  
 
-| 프로젝트 | 설명 | 링크 |
-|----------|------|------|
-| **[Frontend Project]** | React 기반 프론트엔드 개발 | [🔗 GitHub Repo](https://github.com/[OrganizationName]/[Frontend]) |
-| **[Backend Project]** | Node.js 기반 API 서버 구축 | [🔗 GitHub Repo](https://github.com/[OrganizationName]/[Backend]) |
-| **[Design System]** | UI 컴포넌트 라이브러리 및 스타일 가이드 | [🔗 GitHub Repo](https://github.com/[OrganizationName]/[DesignSystem]) |
+### ✅ **1) AI 여행 추천**  
+- 사용자의 **지역, 기간, 동행인, 테마, 일정 스타일**을 바탕으로 AI가 최적의 여행 루트를 생성  
+- 추천된 경로는 **지도에 마커로 표시되며 Day1, Day2 일정까지 자동 생성**  
+- **🚧 현재 개발 중 (Coming Soon!)**  
 
----
+### ✅ **2) 지역별 관광지 & 맛집 정보**  
+- **TourAPI + Kakao Maps API 연동**  
+- 지도에서 **관광지, 맛집, 숙소 정보를 마커로 표시**  
+- 검색 및 필터 기능 지원  
+
+### ✅ **3) 맛집 이상형 월드컵**  
+- 여행지에서 무엇을 먹을지 고민될 때, **게이미피케이션을 활용한 선택 기능 제공**  
+- **월드컵 결과 TOP3**를 메인에서 한눈에 확인 가능  
+- **🚧 현재 개발 중 (Coming Soon!)**  
+
+### ✅ **4) 커뮤니티 기능**  
+- 여행 후기, 맛집 추천, 꿀팁 등을 자유롭게 공유  
+- 게시글 CRUD(작성, 수정, 삭제, 조회), 댓글 기능 지원  
+- **🚧 현재 개발 중 (Coming Soon!)**  
+
 <br>
 
-## 💡 철학 및 가치
-우리 조직은 아래와 같은 원칙을 바탕으로 프로젝트를 운영합니다:
+# **3. Technology Stack (기술 스택)**  
 
-1. **배움과 성장**: 누구나 기여를 통해 새로운 기술을 배우고 성장할 수 있는 환경 조성  
-2. **협력과 공유**: 협업을 통해 더 나은 결과물을 만들어내며, 오픈소스로 기여  
-3. **실패를 두려워하지 않기**: 사이드 프로젝트는 새로운 시도를 위한 공간입니다. 실수를 통해 배우는 것을 환영합니다.  
+## 🖥 **Frontend**
+| 기술 | 설명 |
+|------|------|
+| **HTML5** | 웹 페이지의 구조를 정의하는 마크업 언어 |
+| **CSS3** | 스타일링 및 레이아웃 디자인을 위한 스타일시트 |
+| **Vanilla JS (JavaScript)** | 프레임워크 없이 순수 JavaScript로 구현 |
+| **Bootstrap** | 반응형 및 스타일링을 위한 CSS 프레임워크 |
 
----
 <br>
 
-## 🔧 기술 스택
-우리 웹사이트 프로젝트에서 사용하는 주요 기술들은 다음과 같습니다:
+## 🔧 **Backend**
+| 기술 | 설명 |
+|------|------|
+| **Flask** | Python 기반의 경량 웹 프레임워크 |
+| **Node.js** | 서버 사이드 JavaScript 런타임 환경 |
+| **Express.js** | RESTful API 구축을 위한 경량 웹 프레임워크 |
+| **Supabase** | Authentication, Database 및 실시간 데이터베이스 서비스 |
+| **Google Gemini API** | AI 기반 여행 추천 기능 |
+| **TourAPI** | 국내 관광지 & 맛집 정보 제공 |
+| **Kakao Maps API** | 지도 기반 마커 표시 |
 
-### **프론트엔드**
-- React, Next.js
-- Tailwind CSS 또는 styled-components
-- TypeScript  
-
-### **백엔드**
-- Node.js (Express)
-- GraphQL / RESTful API
-- MongoDB 또는 PostgreSQL
-
-### **DevOps**
-- Docker, GitHub Actions
-- Vercel 또는 Netlify 배포  
-- AWS, DigitalOcean 인프라  
-
----
 <br>
 
-## 🤝 기여 방법
-### **시작하기**
-1. 관심 있는 프로젝트를 포크(fork)하고 클론합니다.
-   ```bash
-   git clone https://github.com/[OrganizationName]/[ProjectName].git
-   ```
-2. 필요한 패키지를 설치하고 프로젝트를 실행하세요.
-   ```bash
-   npm install
-   npm run dev
-   ```
-3. 브라우저에서 로컬 서버를 확인하세요: `http://localhost:3000`
-
-### **기여 아이디어**
-- 새로운 UI 컴포넌트 개발
-- 버그 리포트 또는 기능 개선 제안  
-- 문서화 및 가이드 업데이트  
-
-### **이슈 및 PR**  
-- 작업 전 [Issues](https://github.com/[OrganizationName]/[ProjectName]/issues)를 확인해주세요.  
-- PR을 통해 새로운 기능 또는 수정을 제안하세요.
-
----
-<br>
-
-## 📄 프로젝트 문서
-아래 링크에서 프로젝트 관련 문서를 확인할 수 있습니다:
-- **[Project Wiki](https://github.com/[OrganizationName]/wiki)**: 프로젝트 개요 및 개발 가이드
-- **[API 문서](https://yourproject.example.com/docs)**: API 명세 및 사용법  
-- **[디자인 시스템](https://github.com/[OrganizationName]/DesignSystem)**: UI 컴포넌트 가이드  
-
----
-<br>
-
-## ⭐️ 프로젝트에 관심 있다면?
-이 리포지토리를 **스타(⭐️)** 눌러주시고, 개발 진행 상황을 함께 지켜봐 주세요!  
-더 나아가 기여하고 싶다면 언제든 환영합니다! 😊
+## 🚀 **DevOps**
+| 기술 | 설명 |
+|------|------|
+| **Glitch** | 프로토타입 개발 및 실시간 코드 수정 가능한 호스팅 플랫폼 |
+| **Render** | 서버 배포 및 백엔드 서비스 운영 |
+| **GitHub Pages** | 정적 사이트 배포 (프론트엔드) |
