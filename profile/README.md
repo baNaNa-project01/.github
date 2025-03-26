@@ -93,36 +93,40 @@ npm start
 - 게시글 CRUD(작성, 수정, 삭제, 조회), 댓글 기능 지원  
 - **🚧 현재 개발 중 (Coming Soon!)**  
 
+---
 <br>
 
-# **3. Technology Stack (기술 스택)**  
+# **3. Technology Stack (기술 스택)**
 
 ## 🖥 **Frontend**
-| 기술 | 설명 |
+
+| 기술 | 배지 |
 |------|------|
-| **HTML5** | 웹 페이지의 구조를 정의하는 마크업 언어 |
-| **CSS3** | 스타일링 및 레이아웃 디자인을 위한 스타일시트 |
-| **Vanilla JS (JavaScript)** | 프레임워크 없이 순수 JavaScript로 구현 |
-| **Bootstrap** | 반응형 및 스타일링을 위한 CSS 프레임워크 |
+| HTML5 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+| CSS3 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+| Vanilla JS | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| Bootstrap | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) |
 
 <br>
 
 ## 🔧 **Backend**
-| 기술 | 설명 |
+
+| 기술 | 배지 |
 |------|------|
-| **Flask** | Python 기반의 경량 웹 프레임워크 |
-| **Node.js** | 서버 사이드 JavaScript 런타임 환경 |
-| **Express.js** | RESTful API 구축을 위한 경량 웹 프레임워크 |
-| **Supabase** | Authentication, Database 및 실시간 데이터베이스 서비스 |
-| **Google Gemini API** | AI 기반 여행 추천 기능 |
-| **TourAPI** | 국내 관광지 & 맛집 정보 제공 |
-| **Kakao Maps API** | 지도 기반 마커 표시 |
+| Flask | ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) |
+| Node.js | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) |
+| Express.js | ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) |
+| Supabase | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) |
+| Google Gemini API | ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white) |
+| TourAPI | ![TourAPI](https://img.shields.io/badge/TourAPI-FF5A5F?style=for-the-badge&logo=datadog&logoColor=white) |
+| Kakao Maps API | ![Kakao](https://img.shields.io/badge/Kakao%20Maps-FFCD00?style=for-the-badge&logo=kakao&logoColor=000000) |
 
 <br>
 
 ## 🚀 **DevOps**
-| 기술 | 설명 |
+
+| 기술 | 배지 |
 |------|------|
-| **Glitch** | 프로토타입 개발 및 실시간 코드 수정 가능한 호스팅 플랫폼 |
-| **Render** | 서버 배포 및 백엔드 서비스 운영 |
-| **GitHub Pages** | 정적 사이트 배포 (프론트엔드) |
+| Glitch | ![Glitch](https://img.shields.io/badge/Glitch-9333EA?style=for-the-badge&logo=glitch&logoColor=white) |
+| Render | ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black) |
+| GitHub Pages | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white) |
